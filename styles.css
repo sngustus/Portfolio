@@ -39,27 +39,28 @@ nav a:hover {
 .me {
     display: flex;
     justify-content: center;
-    max-width: 800px;
+    align-items: center;
+    max-width: 1000px; /*still need to adjust*/
     margin:auto;
     background-image: url('./img/arc.png');
     background-size: cover;
 }
 
 .welcome-img {
-    width: 50%;
+    flex: 0 0 40%;
     border-radius: 50%;
     background-color: #8899A6;
-    justify-self: right;
+    height: 250px;
 }
 
 .me .left {
-    flex: 1;
+    flex: 1 0 40%;
     display: flex;
     justify-content: right;
 }
 
 .me .right {
-    flex: 2;
+    flex: 2 1 50%;
     padding: 2rem 0;
 }
 
@@ -83,23 +84,20 @@ nav a:hover {
     padding: 2rem;
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 2rem;
 }
 
 .project {
-    margin-left: 1rem;
-    margin-right: 1rem;
     border-radius: 15px;
     box-shadow: 5px 5px 5px darkgray;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    width: 314px;
-    height: 250px;
-    align-self: center;
-    flex: 1;
+    height: 350px;
+    flex: 1 0 300px;
     position: relative;
-
 }
 
 .project:hover {
@@ -123,10 +121,10 @@ nav a:hover {
     transform: translateY(0);
 }
 
-.project .type {
+/*.project .type {
     color: #8899A6;
     font-weight: bold;
-}
+}*/
 
 .project .link {
     font-size: x-large;
@@ -169,7 +167,7 @@ p {
 }
 
 /*mobile tweaks*/
-@media screen and (max-device-width: 426px) {
+/*@media screen and (max-device-width: 426px) {
     .featured {
         flex-direction: column;
         align-items: center;
@@ -186,3 +184,4 @@ p {
     }
 }
 
+*/
