@@ -1,7 +1,7 @@
 
 let projects = [{id:0, preview:"dashboard-preview-9.4.2020.png", type:"WEB", linkSource:"stevegustus.me/#",linkText:"Procore Dashboard",description:"Pull data from the Procore API.",stack:["javascript.svg"]},
     {id:0, preview:"dogstagram-preview-9.4.2020.png", type:"WEB", linkSource:"stevegustus.me/#",linkText:"Dogstagram",description:"Instagram for Dogs!",stack:["ruby.svg","rails.svg"]}, 
-    {id:0, preview:"caravan-preview.png", type:"WEB", linkSource:"stevegustus.me/#",linkText:"Caravan",description:"Card game from Fallout: New Vegas",stack:["javascript.svg"]}
+    {id:0, preview:"caravan-preview.png", type:"WEB", linkSource:"caravan.stevegustus.me/#",linkText:"Caravan",description:"Card game from Fallout: New Vegas",stack:["javascript.svg"]}
 ];
 
 renderProjects();
